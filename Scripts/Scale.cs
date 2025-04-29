@@ -25,7 +25,9 @@ void Start()
         else if( Position == 1 ){
             PosX = Screen.width/Screen.width;   
         }
-         
+         else if( Position == 0 ){
+            PosX = 0;   
+        }
         
  
         // Establece el tamaño y la posicion que necesita tener el objeto 
